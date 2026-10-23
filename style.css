@@ -7,8 +7,8 @@
 body {
     margin: 0;
     font-family: 'Barlow', Arial, Helvetica, sans-serif;
-    background-color: #23698f;
-    color: #111;
+    background-color: #013369;
+    color: #10252c;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -81,7 +81,8 @@ select,
 }
 
 .username-row h1 {
-    background-color: #dce3e8;
+    background-color: white;
+    color: #013369;
     padding: 12px 24px;
     border-radius: 30px;
     margin: 0;
@@ -95,7 +96,7 @@ select,
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    background-color: #3da2ff;
+    background-color: #63a8f1;
     color: white;
     font-size: 34px;
     font-weight: bold;
@@ -105,7 +106,8 @@ select,
 
 .stats {
     margin-top: 30px;
-    background-color: #cbd4dc;
+    background-color: white;
+    color: #013369;
     border-radius: 40px;
     padding: 22px;
     display: flex;
@@ -128,6 +130,7 @@ select,
 .scenario {
     margin-top: 25px;
     background-color: #cbd4dc;
+    color: #10252c;
     border-radius: 35px;
     padding: 25px 30px;
     font-size: 19px;
@@ -194,7 +197,7 @@ select,
     left: 12px;
     padding: 7px 12px;
     border-radius: 15px;
-    background-color: rgba(0, 0, 0, 0.75);
+    background-color: #10252c;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -218,7 +221,7 @@ select,
     right: 12px;
     padding: 7px 11px;
     border-radius: 15px;
-    background-color: rgba(30, 125, 70, 0.95);
+    background-color: #63a8f1;
     color: white;
     font-size: 13px;
     font-weight: bold;
@@ -328,6 +331,7 @@ select,
     padding: 20px;
     border-radius: 30px;
     background-color: #f5f6fb;
+    color: #013369;
     font-size: 30px;
     font-weight: bold;
     cursor: grab;
@@ -358,7 +362,7 @@ select,
     padding: 13px 30px;
     border: none;
     border-radius: 25px;
-    background-color: #23698f;
+    background-color: #013369;
     color: white;
     font-size: 18px;
     font-weight: bold;
@@ -367,15 +371,15 @@ select,
 
 .query-buttons button:hover,
 .continue-button:hover {
-    background-color: #174e6d;
+    background-color: #004691;
 }
 
 #resetQuery {
-    background-color: #707b84;
+    background-color: #a5acaf;
 }
 
 #resetQuery:hover {
-    background-color: #59636a;
+    background-color: #7b8082;
 }
 
 .query-message {
@@ -387,11 +391,11 @@ select,
 }
 
 .query-message.error {
-    color: #a32121;
+    color: rgb(167, 0, 0);
 }
 
 .query-message.success {
-    color: #19733c;
+    color: #63a8f1;
 }
 
 .back-button {
@@ -456,7 +460,7 @@ select,
     height: 65px;
     margin: 0 auto 10px;
     border-radius: 50%;
-    background-color: #26834a;
+    background-color: #63a8f1;
     color: white;
     font-size: 40px;
     font-weight: bold;
@@ -542,11 +546,11 @@ td {
 }
 
 .continue-button {
-    background-color: #19733c;
+    background-color: #63a8f1;
 }
 
 .continue-button:hover {
-    background-color: #12562c;
+    background-color: #63a8f1;
 }
 
 /* CHALLENGE 2 */
@@ -700,11 +704,11 @@ td {
 }
 
 #resetPasswords {
-    background-color: #707b84;
+    background-color: #a5acaf;
 }
 
 #resetPasswords:hover {
-    background-color: #59636a;
+    background-color: #878c8f;
 }
 
 /* CHALLENGE 3: PHISHING OR REAL ; the container is different here because of the different layout */
